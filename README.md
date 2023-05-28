@@ -2,7 +2,7 @@ Sudoku Image Solver
     Video Demo: https://youtu.be/KBmzEk3-0xo
     Description:
         My project is a program that uses tensorflow's keras and backtracking to solve sudoku puzzles from images. 
-        model.py: Uses tensor keras library and images made from number_image and rotate to create a weell trained model to detect typed numbers from an image. The model includes the same layers from a project that was in the CS50 AI course that I made and it worked well for this project as well. It includes five convolutional layers, which would be considered a lot for a model but it is needed at fonts have many different looks and filters are needed simplify the images for the computer to better understand them. I used this to save the model to nums.h5, which would be used later to predict the numbers in the sudoku puzzle.
+        model.py: Uses tensor keras library and images made from number_image and rotate to create a weell trained model to detect typed numbers from an image. It includes five convolutional layers, which would be considered a lot for a model but it is needed at fonts have many different looks and filters are needed simplify the images for the computer to better understand them. I used this to save the model to nums.h5, which would be used later to predict the numbers in the sudoku puzzle.
 
         number_image.py: Takes fonts from the fonts file and creates images numbered 1-9 for each font.
 
